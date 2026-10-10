@@ -15,7 +15,7 @@
 go run . -addr :8080 -data links.json
 ```
 
-Или через Docker:
+Или чрез Docker:
 
 ```bash
 docker build -t go-shortener .
@@ -47,9 +47,3 @@ Healthcheck: `GET /healthz`
 go test ./...
 ```
 
-## Идеи для развития
-
-- Свои алиасы и срок жизни ссылок
-- Хранилище на SQLite или PostgreSQL
-- Rate limiting и метрики Prometheus
-- CI на GitHub Actions
